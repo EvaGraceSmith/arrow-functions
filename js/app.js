@@ -229,7 +229,7 @@ joe.scopeArrow();
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
 // this new.Student Object itself: Joe
-// 2. What is "this" when joe.scopeArrow() is invoked?
+// 2. What is "this" when joe.scopeArrow() is invoked?]
 // It is the global window object
 // 3. Explain why "this" is different when an arrow function is used.
 // The this context is not reset within an arrow function. Arrow functions retain the this value of the enclosing functional scope.
