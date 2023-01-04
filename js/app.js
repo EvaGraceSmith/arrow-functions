@@ -192,7 +192,7 @@ Student.prototype.greeting = function() {
   return `Hi, my name is ${this.name}`;
 };
 
-// Student.prototype.greeting = () =>`Hi, my name is ${this.name}`;
+Student.prototype.greeting = () =>`Hi, my name is ${this.name}`;
 
 
 // TODO: Uncomment the following line of code to see the output in the browser console
